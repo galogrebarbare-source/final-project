@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.hero-section {
+    width: 100%;
+    height: 100%;
+     background-image: url(./images/weavy-Gemini\ 3\ \(Nano\ Banana\ Pro\)-2026-01-14\ at\ 16_44_52.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.hero-container {
+    width: 98%;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 3%;
+}
+
+
+.hero-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 0;
+    margin-left: 0;
+    transform: translateX(-150px);
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #42181d;
+    line-height: 1.18;
+    letter-spacing: -0.8px;
+}
+
+
+.shop-btn {
+    display: inline-block;
+    background-color: #541d24;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 23px 45px;
+    border-radius: 8px;
+    transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.shop-btn:hover {
+    background-color: #3d1419;
+    transform: translateY(-2px);
+}
+
+
+.hero-brand-overlay {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 1%;
+    padding-left: 0.5%;
+}
+
+.big-brand-text {
+    font-size: 400px;
+    font-weight: 800;
+    color: white;
+    line-height: 0.78;
+    letter-spacing: -2px;
+    margin-left: 0;
+    transform: translateX(-150px);
+    user-select: none;
+}

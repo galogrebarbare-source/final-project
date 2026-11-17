@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #43281c; 
+}
+
+.page-wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding: 160px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+/* ზედა სათაურის ბლოკი */
+.top-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.breadcrumb {
+    font-size: 13px;
+    color: #6b554b;
+    margin-bottom: 15px;
+}
+
+.breadcrumb span {
+    margin: 0 6px;
+    font-size: 11px;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #43281c; 
+    letter-spacing: -0.5px;
+}
+
+/* მთავარი განლაგება */
+.main-layout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+
+.sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.sidebar-heading {
+    font-size: 13px;
+    font-weight: 600;
+    color: #43281c;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #b5a89e; 
+    margin-bottom: 14px;
+}
+
+
+.sidebar-block:nth-child(2) .sidebar-heading {
+    font-weight: 700; 
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu-item {
+    font-size: 13px;
+    color: #5c4033;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: 500;
+    color: #43281c;
+}
+
+
+.filter-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #b5a89e; 
+}
+
+.filter-title-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #43281c;
+    font-weight: 500;
+   
+}
+
+.filter-title-row .symbol {
+    font-size: 15px;
+    color: #43281c;
+}
+
+
+.slider-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.price-range {
+    appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #43281c; 
+    outline: none;
+}
+
+
+.price-range::-webkit-slider-thumb {
+
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #43281c; 
+    cursor: pointer;
+}
+
+.price-range::-moz-range-thumb {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #43281c;
+    cursor: pointer;
+    border: none;
+}
+
+.price-limits {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #43281c;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+.products-area {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.count-text {
+    font-size: 13px;
+    color: #43281c;
+}
+
+.sort-text {
+    font-size: 13px;
+    color: #43281c;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+}
+
+.sort-text .arrow {
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+
+.products-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image-frame {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #e6e4dd;
+    overflow: hidden;
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.product-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #43281c;
+    margin-bottom: 6px;
+}
+
+.price-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #7a655c;
+}
+
+.sale-price {
+    color: #43281c;
+}
+
+.normal-price {
+    color: #43281c;
+}
+
+
+.options-row {
+    display: flex;
+    gap: 6px;
+}
+
+.option-pill {
+    font-size: 11.5px;
+    color: #43281c;
+    border: 1px solid #b5a89e;
+    padding: 4px 10px;
+    background-color: transparent;
+    border-radius: 4px;
+}

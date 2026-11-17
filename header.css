@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f4f7f8;
+}
+
+.site-header {
+    width: 100%;
+    background-color: #f4f7f8;
+    padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0 
+}
+
+
+.header-container {
+    width: 94%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #d67681;
+    text-decoration: none;
+    letter-spacing: -1.5px;
+}
+
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #2c2526;
+    font-size: 17px;
+    font-weight: 600;
+    transition: opacity 0.2s ease;
+}
+
+.nav-list a:hover {
+    opacity: 0.7;
+}
+
+
+.header-actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18%;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+    gap: 12%;
+    text-decoration: none;
+    color: #382528;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+
+.svg-inline--fa {
+    display: inline-block;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.fa-circle-user {
+    font-size: 24px;
+    color: #382528;
+}
+
+.cart-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #382528;
+}
+
+.fa-basket-shopping {
+    font-size: 22px;
+    color: #382528;
+}
+
+
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: #382528;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
