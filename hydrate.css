@@ -1,4 +1,4 @@
-/* ძირითადი სტილები */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +9,15 @@
 body {
     background-color: #fff;
     color: #333;
-    /* vh-ის მაგივრად გამოყენებულია % და აბსოლუტური ზომები */
+
     padding: 50px 40px;
     width: 100%;
     min-height: 100%;
 }
 
-/* ზედა ნავიგაცია */
+
 .page-header {
+    margin-top: 5%;
     margin-bottom: 40px;
 }
 
@@ -55,14 +56,14 @@ body {
     margin-left: 4px;
 }
 
-/* მთავარი განლაგება (Grid - Sidebar + Content) */
+
 .main-container {
     display: grid;
     grid-template-columns: 220px 1fr;
     gap: 40px;
 }
 
-/* მარცხენა მხარე - ფილტრები */
+
 .sidebar {
     padding-right: 20px;
 }
@@ -122,7 +123,7 @@ body {
     color: #888;
 }
 
-/* მარჯვენა მხარე - პროდუქტები */
+
 .content-area {
     width: 100%;
 }
@@ -139,7 +140,7 @@ body {
     gap: 20px;
 }
 
-/* პროდუქტის ქარდი */
+
 .product-card {
     display: flex;
     flex-direction: column;
@@ -163,7 +164,7 @@ body {
     object-fit: cover;
 }
 
-/* "Bestseller" ეტიკეტი */
+
 .badge {
     position: absolute;
     top: 12px;
