@@ -537,3 +537,332 @@ html, body {
 .eleven11:hover {
   background-color: #35181c; 
 }
+
+
+.b1 {
+  padding: 2%;
+  font-family: "Outfit", sans-serif;
+  background-color: #ffffff;
+  color: #6b0a0a;
+}
+
+
+.b1,
+.b1 * {
+  box-sizing: border-box;
+}
+
+
+.b2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;          
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.b3 {
+  margin: 0;               
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6b0a0a;
+}
+
+
+.b4 {
+  display: inline-block;
+  padding: 0.6em 1em;
+  border: 0.06em solid #6b0a0a;
+  border-radius: 0.5em;
+  color: #6b0a0a;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.b4:hover {
+  background-color: #6b0a0a;
+  color: #ffffff;
+}
+
+
+.b5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1%;
+}
+
+
+.b6 {
+  border-radius: 1rem;
+  overflow: hidden;        
+}
+
+.b6 img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;     
+  object-fit: cover;        
+}
+
+
+.b1 {
+  padding: 1rem;
+  font-family: "Outfit", sans-serif;
+  background-color: #ffffff;
+  color: #6b0a0a;
+}
+
+
+.b1,
+.b1 * {
+  box-sizing: border-box;
+}
+
+
+.b2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;          
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.b3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6b0a0a;
+  overflow-wrap: anywhere;
+}
+
+/* b4 - ღილაკი */.b4 {
+  display: inline-block;
+  padding: 0.6em 1em;
+  border: 0.06em solid #6b0a0a;
+  border-radius: 0.5em;
+  color: #6b0a0a;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.b4:hover {
+  background-color: #6b0a0a;
+  color: #ffffff;
+}
+
+
+.b5 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1%;
+}
+
+
+.b6 {
+  border-radius: 1rem;
+  overflow: hidden;         
+}
+
+.b6 img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;     
+  object-fit: cover;        
+}
+
+
+
+
+.b8 {
+    height: 450px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  font-family: "Outfit", sans-serif;
+  background-color: #f9dcdc;
+  color: #6b0a0a;
+}
+
+
+.b8,
+.b8 * {
+  box-sizing: border-box;
+}
+
+
+.b9 {
+  width: 70%;
+}
+
+
+.b10 {
+    margin-top: 100px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+
+.b11 {
+  margin: 0;
+  font-size: 1.4rem;
+  overflow-wrap: anywhere;
+}
+
+
+.b12 {
+    margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 60%;
+}
+
+
+.b13 {
+  font-size: 1rem;
+}
+
+
+.b14 {
+  width: 100%;
+  min-width: 0;
+  padding: 0.6em 0.8em;
+  border: 0.06em solid #6b0a0a;
+  border-radius: 0.4em;
+  background-color: #ffffff;
+  color: #6b0a0a;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.b14::placeholder {
+  color: #6b0a0a;
+}
+
+
+.b15 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+
+.b16 {
+  flex-shrink: 0;         
+  width: 1.1em;
+  height: 1.1em;
+  accent-color: #6b0a0a;
+}
+
+/* b17 - Submit ღილაკი */
+.b17 {
+  align-self: flex-start;
+  padding: 0.7em 1.8em;
+  border: none;
+  border-radius: 0.4em;
+  background-color: #6b0a0a;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.b17:hover {
+  opacity: 0.85;
+}
+
+
+@media (max-width: 60em) {
+  .b5 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+  }
+}
+
+/* ტელეფონი - 1 სვეტი */
+@media (max-width: 35em) {
+  .b5 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .b3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .b5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2%;
+  }
+
+  .b8 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .b9,
+  .b12 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 35em) {
+  .b5 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .b3 {
+    font-size: 1.6rem;
+  }
+
+  .b10 {
+    font-size: 2rem;
+  }
+
+  .b11 {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media (max-width: 25em) {
+  .b1 {
+    padding: 0.8rem;
+  }
+
+  .b8 {
+    padding: 1.5rem 0.8rem;
+    gap: 1.5rem;
+  }
+
+  .b3 {
+    font-size: 1.4rem;
+  }
+
+  .b10 {
+    font-size: 1.7rem;
+  }
+
+  .b11 {
+    font-size: 1.1rem;
+  }
+
+  .b13,
+  .b15 {
+    font-size: 0.95rem;
+  }
+}
